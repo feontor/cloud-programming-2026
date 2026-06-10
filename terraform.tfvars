@@ -1,0 +1,1 @@
+bucket_name = "feontor-cloud-project-2026-2705"
