@@ -25,11 +25,11 @@ Double click `destroy.bat` or run in terminal:
 ```
 
 ## File Structure
-provider.tf – tells terraform which cloud provider to use and how to connect to it.
-variables.tf – defines variables that can be reused throughout the project.
-terraform.tfvars – stores the actual values for those variables.
-main.tf – the actual infrastructure (S3 bucket, CloudFront).
-outputs.tf – displays useful information, like a URL, after deployment.
-website folder – contains index.html and .jpg file for the actual webpage.
-deploy.bat – automates the deployment process
-destroy.bat – automates the teardown process
+- `provider.tf` – tells Terraform which cloud provider to use and how to connect to it
+- `variables.tf` – defines variables that can be reused throughout the project
+- `terraform.tfvars` – stores the actual values for those variables
+- `main.tf` – the actual infrastructure (S3 bucket, CloudFront)
+- `outputs.tf` – displays useful information like a URL after deployment
+- `website/` – contains index.html and image file for the webpage
+- `deploy.bat` – automates the deployment process
+- `destroy.bat` – automates the destroy process
